@@ -1,0 +1,462 @@
+read scan freq result chain 1:
+magic1            : 34
+magic2            : 51
+start_freq_high   : 1
+start_freq_low    : 94
+freq_step         : 5
+freq_decrease     : 0
+column_freq_level : 2 4 4 2 2 2 2 0 2 4 
+crc16_high        : 162
+crc16_low         : 245
+
+read scan freq result chain 2:
+magic1            : 34
+magic2            : 51
+start_freq_high   : 0
+start_freq_low    : 250
+freq_step         : 5
+freq_decrease     : 20
+column_freq_level : 0 2 0 2 2 0 0 0 0 0 
+crc16_high        : 68
+crc16_low         : 233
+
+read scan freq result chain 3:
+magic1            : 34
+magic2            : 51
+start_freq_high   : 1
+start_freq_low    : 69
+freq_step         : 5
+freq_decrease     : 20
+column_freq_level : 2 0 2 2 2 0 2 2 0 2 
+crc16_high        : 68
+crc16_low         : 167
+
+ [2018-08-29 07:42:53.855] miner ID : 807485c25c20881c
+
+ [2018-08-29 07:42:53.856] check_chain: get_hash_on_plug is 0xe
+ [2018-08-29 07:42:53.856] !!check_chain: chain[1]is exist
+ [2018-08-29 07:42:53.856] !!check_chain: chain[2]is exist
+ [2018-08-29 07:42:53.856] !!check_chain: chain[3]is exist
+ [2018-08-29 07:42:54.297] chain[1] dsPIC33EP16GS202_reset_pic ok
+ [2018-08-29 07:42:56.538] chain[1] dsPIC33EP16GS202_jump_to_app_from_loader ok
+ [2018-08-29 07:42:57.079] chain[2] dsPIC33EP16GS202_reset_pic ok
+ [2018-08-29 07:42:58.643] dsPIC33EP16GS202_pic_heart_beat Heartbeat failed on Chain[2], retry_count=1!!!
+ [2018-08-29 07:43:00.204] dsPIC33EP16GS202_pic_heart_beat Heartbeat failed on Chain[2], retry_count=2!!!
+ [2018-08-29 07:43:01.765] dsPIC33EP16GS202_pic_heart_beat Heartbeat failed on Chain[2], retry_count=3!!!
+ [2018-08-29 07:43:04.006] chain[2] dsPIC33EP16GS202_jump_to_app_from_loader ok
+ [2018-08-29 07:43:04.568]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:05.229]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:05.770] chain[3] dsPIC33EP16GS202_reset_pic ok
+ [2018-08-29 07:43:08.011] chain[3] dsPIC33EP16GS202_jump_to_app_from_loader ok
+ [2018-08-29 07:43:08.111] set_reset_allhashboard = 0x0000ffff
+ [2018-08-29 07:43:11.111] 
+ [2018-08-29 07:43:11.121] Chain[1] read pic voltage=29
+ [2018-08-29 07:43:11.240] AT24C02_read_freq_one_chain read freq_h 0x01,freq_l 0x2c,freq_f 0x00
+ [2018-08-29 07:43:11.240] Chain[5] read freq=300.000000 on chain 1
+ [2018-08-29 07:43:11.396] set_Voltage_S9_plus_plus_BM1387_54   chain 1 set volt 29 ok!
+ [2018-08-29 07:43:11.396] Chain 1 set open core voltage 1052
+ [2018-08-29 07:43:12.342] dsPIC33EP16GS202_enable_pic_dc_dc [1] ok, i2c=1!
+ [2018-08-29 07:43:12.342] 
+ [2018-08-29 07:43:12.352] Chain[2] read pic voltage=29
+ [2018-08-29 07:43:12.471] AT24C02_read_freq_one_chain read freq_h 0x01,freq_l 0x2c,freq_f 0x00
+ [2018-08-29 07:43:12.471] Chain[5] read freq=300.000000 on chain 2
+ [2018-08-29 07:43:12.627] set_Voltage_S9_plus_plus_BM1387_54   chain 2 set volt 29 ok!
+ [2018-08-29 07:43:12.627] Chain 2 set open core voltage 1052
+ [2018-08-29 07:43:13.427]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:43:13.973] dsPIC33EP16GS202_enable_pic_dc_dc [1] ok, i2c=2!
+ [2018-08-29 07:43:13.973] 
+ [2018-08-29 07:43:13.982] Chain[3] read pic voltage=29
+ [2018-08-29 07:43:14.101] AT24C02_read_freq_one_chain read freq_h 0x01,freq_l 0x2c,freq_f 0x00
+ [2018-08-29 07:43:14.101] Chain[5] read freq=300.000000 on chain 3
+ [2018-08-29 07:43:14.257] set_Voltage_S9_plus_plus_BM1387_54   chain 3 set volt 29 ok!
+ [2018-08-29 07:43:14.258] Chain 3 set open core voltage 1052
+ [2018-08-29 07:43:15.229]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:15.890]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:16.436] dsPIC33EP16GS202_enable_pic_dc_dc [1] ok, i2c=3!
+ [2018-08-29 07:43:19.436] set_reset_allhashboard = 0x00000000
+ [2018-08-29 07:43:19.438] !!! reg crc error
+
+ [2018-08-29 07:43:20.947] +Check asic reg, chain[1] exist
+
+ [2018-08-29 07:43:20.947] +Check asic reg, chain[2] exist
+
+ [2018-08-29 07:43:20.947] +Check asic reg, chain[3] exist
+
+ [2018-08-29 07:43:20.948] !!Check asic reg, read asic chain[1], reg=0x0
+ [2018-08-29 07:43:21.249] !!reg_value_num = 60
+ [2018-08-29 07:43:21.249] !!chain_asic_num[1] is CHAIN_ASIC_NUM
+ [2018-08-29 07:43:21.250] !!Check asic reg, read asic chain[2], reg=0x0
+ [2018-08-29 07:43:21.550] !!reg_value_num = 60
+ [2018-08-29 07:43:21.551] !!chain_asic_num[2] is CHAIN_ASIC_NUM
+ [2018-08-29 07:43:21.552] !!Check asic reg, read asic chain[3], reg=0x0
+ [2018-08-29 07:43:21.852] !!reg_value_num = 60
+ [2018-08-29 07:43:21.852] !!chain_asic_num[3] is CHAIN_ASIC_NUM
+ [2018-08-29 07:43:21.853]  in check_asic_num all chain exist
+ [2018-08-29 07:43:21.863] Chain[J2] has 60 asic
+
+ [2018-08-29 07:43:21.868] Chain[J3] has 60 asic
+
+ [2018-08-29 07:43:21.873] Chain[J4] has 60 asic
+
+ [2018-08-29 07:43:24.088]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:43:25.890]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:26.551]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:32.620] set FAN speed according to: temp_highest=0 temp_top1[PWM_T]=0 temp_top1[TEMP_POS_LOCAL]=0 temp_change=0 fix_fan_steps=0
+ [2018-08-29 07:43:32.620] set full FAN speed...
+ [2018-08-29 07:43:32.620] dev->timeout = 785
+
+ [2018-08-29 07:43:32.631] set baud=0
+ [2018-08-29 07:43:32.631] set_baud_one_chain: cmd_buf[0]=0x51090018, cmd_buf[1]=0x2001, cmd_buf[2]=0xd000000, misc=0x2001
+
+ [2018-08-29 07:43:32.632] set_baud_one_chain: cmd_buf[0]=0x51090018, cmd_buf[1]=0x2001, cmd_buf[2]=0xd000000, misc=0x2001
+
+ [2018-08-29 07:43:32.633] set_baud_one_chain: cmd_buf[0]=0x51090018, cmd_buf[1]=0x2001, cmd_buf[2]=0xd000000, misc=0x2001
+
+ [2018-08-29 07:43:32.685] set_baud: read bc write is 0x83001a
+ [2018-08-29 07:43:32.695] open_core_BM1393_pre_open: pre open core = 5
+ [2018-08-29 07:43:33.810] pre_open_core_one_chain for chain 1
+ [2018-08-29 07:43:34.749]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:43:34.924] pre_open_core_one_chain for chain 2
+ [2018-08-29 07:43:36.038] pre_open_core_one_chain for chain 3
+ [2018-08-29 07:43:36.044] in set_clock_delay_control, core_data = 0x02
+ [2018-08-29 07:43:36.551]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:36.726] Chain[J2] PIC temp offset=40,-4,31,-5,0,0,33,0
+
+ [2018-08-29 07:43:36.727] chain[1] temp chip I2C addr=0x98
+
+ [2018-08-29 07:43:36.727] set_misc_control: cmd_buf[0]=0x41099c18, cmd_buf[1]=0x6061, cmd_buf[2]=0x6000000, misc=0x6061
+
+ [2018-08-29 07:43:37.289]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:37.463] Chain[J2] chip[156] use PIC middle temp offset=-4 typeID=55
+
+ [2018-08-29 07:43:38.698] [do_calibration_sensor_offset] get local temp is 98
+
+ [2018-08-29 07:43:38.946] [do_calibration_sensor_offset] get remote temp is 102
+
+ [2018-08-29 07:43:38.946] offset local:34 remote:38 offset:27 
+
+ [2018-08-29 07:43:39.439] New offset Chain[1] chip[156] local:34 remote:38 offset:27 
+
+ [2018-08-29 07:43:39.439] Chain[J2] chip[156] get middle temp offset=27 typeID=55
+
+ [2018-08-29 07:43:39.440] set_misc_control: cmd_buf[0]=0x41097818, cmd_buf[1]=0x6061, cmd_buf[2]=0xf000000, misc=0x6061
+
+ [2018-08-29 07:43:40.175] Chain[J2] chip[120] use PIC middle temp offset=-5 typeID=55
+
+ [2018-08-29 07:43:41.410] [do_calibration_sensor_offset] get local temp is 94
+
+ [2018-08-29 07:43:41.658] [do_calibration_sensor_offset] get remote temp is 99
+
+ [2018-08-29 07:43:41.658] offset local:30 remote:35 offset:25 
+
+ [2018-08-29 07:43:42.151] New offset Chain[1] chip[120] local:30 remote:35 offset:25 
+
+ [2018-08-29 07:43:42.152] Chain[J2] chip[120] get middle temp offset=25 typeID=55
+
+ [2018-08-29 07:43:42.236] Chain[J3] PIC temp offset=40,-5,31,-5,0,0,33,0
+
+ [2018-08-29 07:43:42.237] chain[2] temp chip I2C addr=0x98
+
+ [2018-08-29 07:43:42.237] set_misc_control: cmd_buf[0]=0x41099c18, cmd_buf[1]=0x6061, cmd_buf[2]=0x6000000, misc=0x6061
+
+ [2018-08-29 07:43:42.973] Chain[J3] chip[156] use PIC middle temp offset=-5 typeID=55
+
+ [2018-08-29 07:43:44.207] [do_calibration_sensor_offset] get local temp is 95
+
+ [2018-08-29 07:43:44.455] [do_calibration_sensor_offset] get remote temp is 100
+
+ [2018-08-29 07:43:44.455] offset local:31 remote:36 offset:25 
+
+ [2018-08-29 07:43:44.949] New offset Chain[2] chip[156] local:31 remote:36 offset:25 
+
+ [2018-08-29 07:43:44.949] Chain[J3] chip[156] get middle temp offset=25 typeID=55
+
+ [2018-08-29 07:43:44.949] set_misc_control: cmd_buf[0]=0x41097818, cmd_buf[1]=0x6061, cmd_buf[2]=0xf000000, misc=0x6061
+
+ [2018-08-29 07:43:45.410]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:43:45.685] Chain[J3] chip[120] use PIC middle temp offset=-5 typeID=55
+
+ [2018-08-29 07:43:46.920] [do_calibration_sensor_offset] get local temp is 95
+
+ [2018-08-29 07:43:47.167] [do_calibration_sensor_offset] get remote temp is 100
+
+ [2018-08-29 07:43:47.168] offset local:31 remote:36 offset:25 
+
+ [2018-08-29 07:43:47.213]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:47.661] New offset Chain[2] chip[120] local:31 remote:36 offset:25 
+
+ [2018-08-29 07:43:47.661] Chain[J3] chip[120] get middle temp offset=25 typeID=55
+
+ [2018-08-29 07:43:47.950]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:48.125] Chain[J4] PIC temp offset=40,-5,31,-5,0,0,33,0
+
+ [2018-08-29 07:43:48.126] chain[3] temp chip I2C addr=0x98
+
+ [2018-08-29 07:43:48.126] set_misc_control: cmd_buf[0]=0x41099c18, cmd_buf[1]=0x6061, cmd_buf[2]=0x6000000, misc=0x6061
+
+ [2018-08-29 07:43:48.862] Chain[J4] chip[156] use PIC middle temp offset=-5 typeID=55
+
+ [2018-08-29 07:43:50.096] [do_calibration_sensor_offset] get local temp is 95
+
+ [2018-08-29 07:43:50.344] [do_calibration_sensor_offset] get remote temp is 99
+
+ [2018-08-29 07:43:50.344] offset local:31 remote:35 offset:26 
+
+ [2018-08-29 07:43:50.838] New offset Chain[3] chip[156] local:31 remote:35 offset:26 
+
+ [2018-08-29 07:43:50.838] Chain[J4] chip[156] get middle temp offset=26 typeID=55
+
+ [2018-08-29 07:43:50.838] set_misc_control: cmd_buf[0]=0x41097818, cmd_buf[1]=0x6061, cmd_buf[2]=0xf000000, misc=0x6061
+
+ [2018-08-29 07:43:51.574] Chain[J4] chip[120] use PIC middle temp offset=-5 typeID=55
+
+ [2018-08-29 07:43:52.808] [do_calibration_sensor_offset] get local temp is 94
+
+ [2018-08-29 07:43:53.056] [do_calibration_sensor_offset] get remote temp is 99
+
+ [2018-08-29 07:43:53.056] offset local:30 remote:35 offset:25 
+
+ [2018-08-29 07:43:53.550] New offset Chain[3] chip[120] local:30 remote:35 offset:25 
+
+ [2018-08-29 07:43:53.550] Chain[J4] chip[120] get middle temp offset=25 typeID=55
+
+ [2018-08-29 07:43:53.560] set TICKET_MASK
+ [2018-08-29 07:43:53.574] Start Open Core!!
+ [2018-08-29 07:43:56.072]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:43:57.874]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:43:58.612]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:43:59.768] End Open Core!!
+ [2018-08-29 07:43:59.768] Chain 1 increase frequency to 105M
+ [2018-08-29 07:43:59.772] Chain 2 increase frequency to 105M
+ [2018-08-29 07:43:59.775] Chain 3 increase frequency to 105M
+ [2018-08-29 07:44:00.778] Chain 1 increase frequency to 110M
+ [2018-08-29 07:44:00.782] Chain 2 increase frequency to 110M
+ [2018-08-29 07:44:00.785] Chain 3 increase frequency to 110M
+ [2018-08-29 07:44:01.789] Chain 1 increase frequency to 115M
+ [2018-08-29 07:44:01.792] Chain 2 increase frequency to 115M
+ [2018-08-29 07:44:01.796] Chain 3 increase frequency to 115M
+ [2018-08-29 07:44:02.799] Chain 1 increase frequency to 120M
+ [2018-08-29 07:44:02.802] Chain 2 increase frequency to 120M
+ [2018-08-29 07:44:02.806] Chain 3 increase frequency to 120M
+ [2018-08-29 07:44:03.809] Chain 1 increase frequency to 125M
+ [2018-08-29 07:44:03.813] Chain 2 increase frequency to 125M
+ [2018-08-29 07:44:03.816] Chain 3 increase frequency to 125M
+ [2018-08-29 07:44:04.820] Chain 1 increase frequency to 130M
+ [2018-08-29 07:44:04.823] Chain 2 increase frequency to 130M
+ [2018-08-29 07:44:04.827] Chain 3 increase frequency to 130M
+ [2018-08-29 07:44:05.830] Chain 1 increase frequency to 135M
+ [2018-08-29 07:44:05.833] Chain 2 increase frequency to 135M
+ [2018-08-29 07:44:05.837] Chain 3 increase frequency to 135M
+ [2018-08-29 07:44:06.733]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:44:06.840] Chain 1 increase frequency to 140M
+ [2018-08-29 07:44:06.844] Chain 2 increase frequency to 140M
+ [2018-08-29 07:44:06.847] Chain 3 increase frequency to 140M
+ [2018-08-29 07:44:07.851] Chain 1 increase frequency to 145M
+ [2018-08-29 07:44:07.854] Chain 2 increase frequency to 145M
+ [2018-08-29 07:44:07.857] Chain 3 increase frequency to 145M
+ [2018-08-29 07:44:08.535]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:44:08.861] Chain 1 increase frequency to 150M
+ [2018-08-29 07:44:08.864] Chain 2 increase frequency to 150M
+ [2018-08-29 07:44:08.868] Chain 3 increase frequency to 150M
+ [2018-08-29 07:44:09.273]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:44:09.871] Chain 1 increase frequency to 155M
+ [2018-08-29 07:44:09.875] Chain 2 increase frequency to 155M
+ [2018-08-29 07:44:09.878] Chain 3 increase frequency to 155M
+ [2018-08-29 07:44:10.882] Chain 1 increase frequency to 160M
+ [2018-08-29 07:44:10.885] Chain 2 increase frequency to 160M
+ [2018-08-29 07:44:10.888] Chain 3 increase frequency to 160M
+ [2018-08-29 07:44:11.892] Chain 1 increase frequency to 165M
+ [2018-08-29 07:44:11.895] Chain 2 increase frequency to 165M
+ [2018-08-29 07:44:11.899] Chain 3 increase frequency to 165M
+ [2018-08-29 07:44:12.902] Chain 1 increase frequency to 170M
+ [2018-08-29 07:44:12.906] Chain 2 increase frequency to 170M
+ [2018-08-29 07:44:12.909] Chain 3 increase frequency to 170M
+ [2018-08-29 07:44:13.912] Chain 1 increase frequency to 175M
+ [2018-08-29 07:44:13.916] Chain 2 increase frequency to 175M
+ [2018-08-29 07:44:13.919] Chain 3 increase frequency to 175M
+ [2018-08-29 07:44:14.923] Chain 1 increase frequency to 180M
+ [2018-08-29 07:44:14.926] Chain 2 increase frequency to 180M
+ [2018-08-29 07:44:14.930] Chain 3 increase frequency to 180M
+ [2018-08-29 07:44:15.933] Chain 1 increase frequency to 185M
+ [2018-08-29 07:44:15.936] Chain 2 increase frequency to 185M
+ [2018-08-29 07:44:15.940] Chain 3 increase frequency to 185M
+ [2018-08-29 07:44:16.943] Chain 1 increase frequency to 190M
+ [2018-08-29 07:44:16.947] Chain 2 increase frequency to 190M
+ [2018-08-29 07:44:16.950] Chain 3 increase frequency to 190M
+ [2018-08-29 07:44:17.394]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:44:17.954] Chain 1 increase frequency to 195M
+ [2018-08-29 07:44:17.957] Chain 2 increase frequency to 195M
+ [2018-08-29 07:44:17.960] Chain 3 increase frequency to 195M
+ [2018-08-29 07:44:18.964] Chain 1 increase frequency to 200M
+ [2018-08-29 07:44:18.967] Chain 2 increase frequency to 200M
+ [2018-08-29 07:44:18.971] Chain 3 increase frequency to 200M
+ [2018-08-29 07:44:19.196]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:44:19.934]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:44:19.974] Chain 1 increase frequency to 205M
+ [2018-08-29 07:44:19.978] Chain 2 increase frequency to 205M
+ [2018-08-29 07:44:19.981] Chain 3 increase frequency to 205M
+ [2018-08-29 07:44:20.985] Chain 1 increase frequency to 210M
+ [2018-08-29 07:44:20.988] Chain 2 increase frequency to 210M
+ [2018-08-29 07:44:20.991] Chain 3 increase frequency to 210M
+ [2018-08-29 07:44:21.995] Chain 1 increase frequency to 215M
+ [2018-08-29 07:44:21.998] Chain 2 increase frequency to 215M
+ [2018-08-29 07:44:22.002] Chain 3 increase frequency to 215M
+ [2018-08-29 07:44:23.005] Chain 1 increase frequency to 220M
+ [2018-08-29 07:44:23.009] Chain 2 increase frequency to 220M
+ [2018-08-29 07:44:23.012] Chain 3 increase frequency to 220M
+ [2018-08-29 07:44:24.015] Chain 1 increase frequency to 225M
+ [2018-08-29 07:44:24.019] Chain 2 increase frequency to 225M
+ [2018-08-29 07:44:24.022] Chain 3 increase frequency to 225M
+ [2018-08-29 07:44:25.026] Chain 1 increase frequency to 230M
+ [2018-08-29 07:44:25.029] Chain 2 increase frequency to 230M
+ [2018-08-29 07:44:25.033] Chain 3 increase frequency to 230M
+ [2018-08-29 07:44:26.036] Chain 1 increase frequency to 235M
+ [2018-08-29 07:44:26.040] Chain 2 increase frequency to 235M
+ [2018-08-29 07:44:26.043] Chain 3 increase frequency to 235M
+ [2018-08-29 07:44:27.046] Chain 1 increase frequency to 240M
+ [2018-08-29 07:44:27.050] Chain 2 increase frequency to 240M
+ [2018-08-29 07:44:27.053] Chain 3 increase frequency to 240M
+ [2018-08-29 07:44:28.055]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:44:28.057] Chain 1 increase frequency to 245M
+ [2018-08-29 07:44:28.060] Chain 2 increase frequency to 245M
+ [2018-08-29 07:44:28.064] Chain 3 increase frequency to 245M
+ [2018-08-29 07:44:29.067] Chain 1 increase frequency to 250M
+ [2018-08-29 07:44:29.070] Chain 2 increase frequency to 250M
+ [2018-08-29 07:44:29.074] Chain 3 increase frequency to 250M
+ [2018-08-29 07:44:29.858]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:44:30.077] Chain 1 increase frequency to 255M
+ [2018-08-29 07:44:30.081] Chain 3 increase frequency to 255M
+ [2018-08-29 07:44:30.595]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:44:31.084] Chain 1 increase frequency to 260M
+ [2018-08-29 07:44:31.088] Chain 3 increase frequency to 260M
+ [2018-08-29 07:44:32.091] Chain 1 increase frequency to 265M
+ [2018-08-29 07:44:32.095] Chain 3 increase frequency to 265M
+ [2018-08-29 07:44:33.098] Chain 1 increase frequency to 270M
+ [2018-08-29 07:44:33.102] Chain 3 increase frequency to 270M
+ [2018-08-29 07:44:34.105] Chain 1 increase frequency to 275M
+ [2018-08-29 07:44:34.108] Chain 3 increase frequency to 275M
+ [2018-08-29 07:44:35.112] Chain 1 increase frequency to 280M
+ [2018-08-29 07:44:35.115] Chain 3 increase frequency to 280M
+ [2018-08-29 07:44:36.119] Chain 1 increase frequency to 285M
+ [2018-08-29 07:44:36.122] Chain 3 increase frequency to 285M
+ [2018-08-29 07:44:37.126] Chain 1 increase frequency to 290M
+ [2018-08-29 07:44:37.129] Chain 3 increase frequency to 290M
+ [2018-08-29 07:44:38.133] Chain 1 increase frequency to 295M
+ [2018-08-29 07:44:38.136] Chain 3 increase frequency to 295M
+ [2018-08-29 07:44:38.717]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:44:39.140] Chain 1 increase frequency to 300M
+ [2018-08-29 07:44:39.143] Chain 3 increase frequency to 300M
+ [2018-08-29 07:44:40.147] Chain 1 increase frequency to 305M
+ [2018-08-29 07:44:40.150] Chain 3 increase frequency to 305M
+ [2018-08-29 07:44:40.519]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:44:41.154] Chain 1 increase frequency to 310M
+ [2018-08-29 07:44:41.157] Chain 3 increase frequency to 310M
+ [2018-08-29 07:44:41.257]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:44:42.160] Chain 1 increase frequency to 315M
+ [2018-08-29 07:44:42.164] Chain 3 increase frequency to 315M
+ [2018-08-29 07:44:43.167] Chain 1 increase frequency to 320M
+ [2018-08-29 07:44:43.171] Chain 3 increase frequency to 320M
+ [2018-08-29 07:44:44.174] Chain 1 increase frequency to 325M
+ [2018-08-29 07:44:44.178] Chain 3 increase frequency to 325M
+ [2018-08-29 07:44:45.181] Chain 1 increase frequency to 330M
+ [2018-08-29 07:44:46.185] Chain 1 increase frequency to 335M
+ [2018-08-29 07:44:47.188] Chain 1 increase frequency to 340M
+ [2018-08-29 07:44:48.192] Chain 1 increase frequency to 345M
+ [2018-08-29 07:44:49.195] Chain 1 increase frequency to 350M
+ [2018-08-29 07:44:49.378]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+set final freq, chain 1
+ [2018-08-29 07:44:51.180]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:44:51.918]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+360 370 370 360 360 360 360 350 360 370 
+370 360 350 360 360 360 360 370 370 360 
+360 370 370 360 360 360 360 350 360 370 
+370 360 350 360 360 360 360 370 370 360 
+360 370 370 360 360 360 360 350 360 370 
+370 360 350 360 360 360 360 370 370 360 
+set final freq, chain 2
+250 260 250 260 260 250 250 250 250 250 
+250 250 250 250 250 260 260 250 260 250 
+250 260 250 260 260 250 250 250 250 250 
+250 250 250 250 250 260 260 250 260 250 
+250 260 250 260 260 250 250 250 250 250 
+250 250 250 250 250 260 260 250 260 250 
+set final freq, chain 3
+ [2018-08-29 07:45:00.039]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+335 325 335 335 335 325 335 335 325 335 
+335 325 335 335 325 335 335 335 325 335 
+335 325 335 335 335 325 335 335 325 335 
+335 325 335 335 325 335 335 335 325 335 
+335 325 335 335 335 325 335 335 325 335 
+335 325 335 335 325 335 335 335 325 335 
+ [2018-08-29 07:45:00.146] in decline_volt_to_target
+ [2018-08-29 07:45:00.146] Chain 1 adjust voltage to 1041
+ [2018-08-29 07:45:00.302] set_Voltage_S9_plus_plus_BM1387_54   chain 1 set volt 33 ok!
+ [2018-08-29 07:45:00.402] Chain 2 adjust voltage to 1041
+ [2018-08-29 07:45:00.558] set_Voltage_S9_plus_plus_BM1387_54   chain 2 set volt 33 ok!
+ [2018-08-29 07:45:00.659] Chain 3 adjust voltage to 1041
+ [2018-08-29 07:45:00.815] set_Voltage_S9_plus_plus_BM1387_54   chain 3 set volt 33 ok!
+ [2018-08-29 07:45:03.915] Chain 1 adjust voltage to 1021
+ [2018-08-29 07:45:04.071] set_Voltage_S9_plus_plus_BM1387_54   chain 1 set volt 42 ok!
+ [2018-08-29 07:45:04.171] Chain 2 adjust voltage to 1021
+ [2018-08-29 07:45:04.327] set_Voltage_S9_plus_plus_BM1387_54   chain 2 set volt 42 ok!
+ [2018-08-29 07:45:04.427] Chain 3 adjust voltage to 1021
+ [2018-08-29 07:45:04.584] set_Voltage_S9_plus_plus_BM1387_54   chain 3 set volt 42 ok!
+ [2018-08-29 07:45:07.684] Chain 1 adjust voltage to 1000
+ [2018-08-29 07:45:07.840] set_Voltage_S9_plus_plus_BM1387_54   chain 1 set volt 54 ok!
+ [2018-08-29 07:45:07.940] Chain 2 adjust voltage to 1000
+ [2018-08-29 07:45:08.096] set_Voltage_S9_plus_plus_BM1387_54   chain 2 set volt 54 ok!
+ [2018-08-29 07:45:08.197] Chain 3 adjust voltage to 1000
+ [2018-08-29 07:45:08.353] set_Voltage_S9_plus_plus_BM1387_54   chain 3 set volt 54 ok!
+ [2018-08-29 07:45:11.453] Chain 1 adjust voltage to 980
+ [2018-08-29 07:45:11.609] set_Voltage_S9_plus_plus_BM1387_54   chain 1 set volt 71 ok!
+ [2018-08-29 07:45:11.709] Chain 2 adjust voltage to 980
+ [2018-08-29 07:45:11.865] set_Voltage_S9_plus_plus_BM1387_54   chain 2 set volt 71 ok!
+ [2018-08-29 07:45:11.965] Chain 3 adjust voltage to 980
+ [2018-08-29 07:45:12.121] set_Voltage_S9_plus_plus_BM1387_54   chain 3 set volt 71 ok!
+ [2018-08-29 07:45:15.222]  freq 370 final timeout=354
+
+ [2018-08-29 07:45:15.225] scan_freq_prepare
+
+ [2018-08-29 07:45:15.234] read all patterns from one file
+ [2018-08-29 07:45:15.497] send work and check result
+ [2018-08-29 07:45:15.502] start send work
+ [2018-08-29 07:45:15.783]  dsPIC33EP16GS202_pic_heart_beat success on chain[1],ret = 0
+ [2018-08-29 07:45:15.937] Chain[1] send 1248 works
+ [2018-08-29 07:45:16.372] Chain[2] send 1248 works
+ [2018-08-29 07:45:16.444]  dsPIC33EP16GS202_pic_heart_beat success on chain[2],ret = 0
+ [2018-08-29 07:45:16.807] Chain[3] send 1248 works
+ [2018-08-29 07:45:16.807] wait for receiving nonce
+ [2018-08-29 07:45:17.105]  dsPIC33EP16GS202_pic_heart_beat success on chain[3],ret = 0
+ [2018-08-29 07:45:18.008] chain[1] total valid nonce number:    1246
+ [2018-08-29 07:45:18.008] chain[1] total send work number:      1248
+ [2018-08-29 07:45:18.009] chain[1] require valid nonce number:  1223
+ [2018-08-29 07:45:18.009] chain[1] hw nonce number:       0
+ [2018-08-29 07:45:18.009] chain[1] repeated nonce number: 2674
+ [2018-08-29 07:45:18.009] chain[1] other nonce number:    3057
+ [2018-08-29 07:45:18.009] chain[2] total valid nonce number:    1193
+ [2018-08-29 07:45:18.009] chain[2] total send work number:      1248
+ [2018-08-29 07:45:18.010] chain[2] require valid nonce number:  1223
+ [2018-08-29 07:45:18.010] chain[2] hw nonce number:       0
+ [2018-08-29 07:45:18.010] chain[2] repeated nonce number: 1473
+ [2018-08-29 07:45:18.010] chain[2] other nonce number:    1655
+ [2018-08-29 07:45:18.010] chain[3] total valid nonce number:    1245
+ [2018-08-29 07:45:18.010] chain[3] total send work number:      1248
+ [2018-08-29 07:45:18.010] chain[3] require valid nonce number:  1223
+ [2018-08-29 07:45:18.011] chain[3] hw nonce number:       0
+ [2018-08-29 07:45:18.011] chain[3] repeated nonce number: 1420
+ [2018-08-29 07:45:18.011] chain[3] other nonce number:    1766
+
+Chain 1 Nonce rate: 99.84
+
+
+Chain 2 Nonce rate: 95.59
+chips have more than 10 0-nonce cores:
+[59 053] 
+
+Chain 3 Nonce rate: 99.76
+
+
+
+ [2018-08-29 07:45:18.516] setStartTimePoint total_tv_start_sys=2161 total_tv_end_sys=2162
+
+ [2018-08-29 07:45:18.516] Init OK!
